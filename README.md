@@ -1,8 +1,7 @@
 # rootfs + lightweight docker alternative
 a collection of rootfs (see releases)
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 a custom version of docker. 
 
 To discover it, clone the repo, and then create the files by doing : `python main.py setup` (it will install evrything you want)
