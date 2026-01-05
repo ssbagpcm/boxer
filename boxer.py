@@ -45,7 +45,7 @@ def ensure_dirs():
     else:
         for d in [IMG, CONT, BLD, CACHE, LYR, TMP, CIMG]: d.mkdir(parents=True, exist_ok=True)
     if not (IMG/"alpine.tar.xz").exists():
-        p(BS, "Downloading alpine..."); run(['wget', '-q', '-O', str(IMG/"alpine.tar.xz"), "https://github.com/ssbagpcm/boxer/releases/download/boxer/alpine.tar.xz"], s=IS_BIN)
+        p(BS, "Downloading alpine..."); run(['wget', '-q', '-O', str(IMG/"alpine.tar.xz"), "https://github.com/ssbagpcm/boxer/releases/download/rootfs/alpine.tar.xz"], s=IS_BIN)
 
 def setup(q=False):
     a = sys.argv
